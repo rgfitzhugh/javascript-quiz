@@ -4,11 +4,13 @@ This is the week 4 challenge of bootcamp
 
 This week's challenge was to create a javascript quiz using javascript. html, and css.
 
-This quiz consists of 10 questions.  The quiztaker is given 60 seconds to answer all 10 questions.
+This quiz consists of 10 questions.  The quiz taker is given 60 seconds to answer all 10 questions.
 
-When the timer equals 0 or all the questions are answered the quiz will end and the score is revealed
+When the timer equals 0 or all the questions are answered the quiz will end and the score is revealed.
 
-After the quiz, the quiztaker will be able to save their initals along with their quiz score.
+After the quiz, the quiz taker will be able to save their initals along with their quiz score.
+
+This score will be recalled the next time the quiz is taken.
 
 
 These files for this project can be found in the following location:
