@@ -3,14 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Quiz</title>
+    <title>JS Code Quiz</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    
-    <script src="./assets/js/script.js"></script>
+    <!--Timer-->
+    <div class="time" id="timer">Timer</div>
+    <div class="container">
+        <header id="start-title">
+            <h1>JAVASCRIPT QUIZ</h1>
+        </header>
+        <div id="start-text">
+            <p>
+                Welcome to the JAVASCRIPT QUIZ!!<br>You have 60 seconds to answer 10 questions! <br>Every answer you get right will award you 10pts, but every wrong answer will cost you 10 seconds off the clock!
+            </p>
+        </div>
+        <!--High Score Container-->
+            <div id="hs-container" class="hide"></div>
+            <div class="hide" id="hs-chart">
+             <label for="high-score"></label>
+              <input
+                type="high-score"
+                name="high-score"
+                id="high-score"
+                placeholder="Enter Initials Here"
+              />
+            <button class="save-btn btn" id="save-button">Save</button>
+            </div>
+            <div class="high-score-chart hide" id="high-score-chart">
+                <p><span id="high-score-input"></span></p>
+            </div>
+        <!--For questions-->
+        <div id="question-container" class="hide">
+         <div id="question">question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+             </div>
+        </div>
+        <div id="controls" class="next">
+            <button id="view-scores" class="view-btn btn hide">View Scores</button>
+            <button id="next-button" class="next-btn btn hide">Next</button>
+            <button id="enter-score-button" class="enter-btn btn hide">Enter Score</button>
+            <button id="endgame-button" class="end-btn btn hide">End Game</button>
+        </div>
+        <!--Begin Quiz Button-->
+        <div class="begin-btn">
+            <button id="begin-quiz" type="submit">Begin Quiz</button>
+        </div>
+    </div>
+    <script src="./assets/jss/script.js"></script>
 </body>
 <footer>
-    <h5>Created by Rob Fitzhugh</h5>
+    <h6 class ="footer">Created by : Rob Fitzhugh</h6>
 </footer>
 </html>
