@@ -19,6 +19,6 @@ These files for this project can be found in the following location:
 
 To access the password generator directly visit
 
-* [Password Generator Url](https://rgfitzhugh.github.io/javascript-quiz/)
+* [Javascript Quiz Url](https://rgfitzhugh.github.io/javascript-quiz/)
 
 ![quiz screenshot](assets/media/Capture.PNG)
