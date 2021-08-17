@@ -19,4 +19,4 @@ To access the password generator directly visit
 
 * [Password Generator Url](https://rgfitzhugh.github.io/javascript-quiz/)
 
-![quiz screenshot](./assets/media.capture.png)
+![quiz screenshot](assets/media.capture.png)
